@@ -1,0 +1,290 @@
+{
+  "app": {
+    "title": "Nuestro Universo",
+    "subtitle": "Hay flores que simplemente florecen...",
+    "subtitleAlt": "y otras que nos recuerdan a alguien.",
+    "enterButton": "Entrar a nuestro universo",
+    "dragHint": "Arrastra para girar · Toca una flor para explorarla",
+    "finalButton": "Ver el final →",
+    "finalMessageLine1": "De todas las flores de este universo,",
+    "finalMessageLine2": "siempre elegiría encontrarte a ti."
+  },
+  "flowers": [
+    {
+      "id": 0,
+      "name": "Rosa Carmesí",
+      "number": "01",
+      "category": "love",
+      "message": "Como esta rosa, mi amor no precisa de perfume ni adorno — basta con que existas.",
+      "modalTitle": "Mensaje de amor",
+      "modalSubtitle": "Una rosa para el alma",
+      "colors": {
+        "petal": "#E8405A",
+        "petalDark": "#A82040",
+        "center": "#FFD060"
+      },
+      "orbit": {
+        "radius": 220,
+        "speed": 0.00028,
+        "phaseOffset": 0,
+        "tilt": 0.2
+      },
+      "selfRotSpeed": 0.0015,
+      "size": 28,
+      "layers": 3
+    },
+    {
+      "id": 1,
+      "name": "Lirio Violeta",
+      "number": "02",
+      "category": "love",
+      "message": "Eres la flor más extraña y hermosa que he encontrado en este universo.",
+      "modalTitle": "Mensaje de amor",
+      "modalSubtitle": "Un lirio para soñar",
+      "colors": {
+        "petal": "#9B59B6",
+        "petalDark": "#5B2C6F",
+        "center": "#F0C040"
+      },
+      "orbit": {
+        "radius": 180,
+        "speed": 0.00035,
+        "phaseOffset": 1.3,
+        "tilt": -0.35
+      },
+      "selfRotSpeed": 0.002,
+      "size": 32,
+      "layers": 1
+    },
+    {
+      "id": 2,
+      "name": "Cosmos Rosado",
+      "number": "03",
+      "category": "friendship",
+      "message": "Delicada pero resiliente, como la amistad que crece entre nosotros sin que nadie lo siembre.",
+      "modalTitle": "Mensaje de amistad",
+      "modalSubtitle": "Un cosmos para celebrar",
+      "colors": {
+        "petal": "#F4A0C0",
+        "petalDark": "#C06090",
+        "center": "#FFE060"
+      },
+      "orbit": {
+        "radius": 260,
+        "speed": 0.00022,
+        "phaseOffset": 2.6,
+        "tilt": 0.45
+      },
+      "selfRotSpeed": 0.0025,
+      "size": 24,
+      "layers": 2
+    },
+    {
+      "id": 3,
+      "name": "Hortensia Azul",
+      "number": "04",
+      "category": "friendship",
+      "message": "Azul como el infinito donde viven nuestras palabras no dichas.",
+      "modalTitle": "Mensaje de amistad",
+      "modalSubtitle": "Una hortensia para recordar",
+      "colors": {
+        "petal": "#6EA8D8",
+        "petalDark": "#3070A0",
+        "center": "#C8E8FF"
+      },
+      "orbit": {
+        "radius": 300,
+        "speed": 0.00018,
+        "phaseOffset": 3.9,
+        "tilt": -0.2
+      },
+      "selfRotSpeed": 0.001,
+      "size": 26,
+      "layers": 2
+    },
+    {
+      "id": 4,
+      "name": "Dalia Dorada",
+      "number": "05",
+      "category": "love",
+      "message": "Brillante y compleja, como los días que contigo se convierten en algo memorable.",
+      "modalTitle": "Mensaje de amor",
+      "modalSubtitle": "Una dalia para brillar",
+      "colors": {
+        "petal": "#F0A020",
+        "petalDark": "#B06010",
+        "center": "#FFF080"
+      },
+      "orbit": {
+        "radius": 200,
+        "speed": 0.00031,
+        "phaseOffset": 5.2,
+        "tilt": 0.55
+      },
+      "selfRotSpeed": 0.0018,
+      "size": 30,
+      "layers": 3
+    },
+    {
+      "id": 5,
+      "name": "Magnolia Blanca",
+      "number": "06",
+      "category": "love",
+      "message": "Hay una pureza en lo que siento por ti que no necesita nombre.",
+      "modalTitle": "Mensaje de amor",
+      "modalSubtitle": "Una magnolia para sentir",
+      "colors": {
+        "petal": "#F8F0E8",
+        "petalDark": "#D0C8C0",
+        "center": "#F0D080"
+      },
+      "orbit": {
+        "radius": 240,
+        "speed": 0.00025,
+        "phaseOffset": 0.8,
+        "tilt": -0.4
+      },
+      "selfRotSpeed": 0.0012,
+      "size": 34,
+      "layers": 1
+    },
+    {
+      "id": 6,
+      "name": "Amapola Escarlata",
+      "number": "07",
+      "category": "friendship",
+      "message": "Fugaz como los momentos perfectos, intensa como el recuerdo que dejan.",
+      "modalTitle": "Mensaje de amistad",
+      "modalSubtitle": "Una amapola para recordar",
+      "colors": {
+        "petal": "#E02020",
+        "petalDark": "#900808",
+        "center": "#1A1010"
+      },
+      "orbit": {
+        "radius": 170,
+        "speed": 0.0004,
+        "phaseOffset": 2.0,
+        "tilt": 0.15
+      },
+      "selfRotSpeed": 0.003,
+      "size": 26,
+      "layers": 1
+    },
+    {
+      "id": 7,
+      "name": "Lavanda Estelar",
+      "number": "08",
+      "category": "friendship",
+      "message": "Me calmas como el aroma que no se ve pero se siente en cada rincón.",
+      "modalTitle": "Mensaje de amistad",
+      "modalSubtitle": "Una lavanda para calmar",
+      "colors": {
+        "petal": "#B8A0D8",
+        "petalDark": "#7060A0",
+        "center": "#E8D8F8"
+      },
+      "orbit": {
+        "radius": 290,
+        "speed": 0.0002,
+        "phaseOffset": 4.5,
+        "tilt": 0.6
+      },
+      "selfRotSpeed": 0.0016,
+      "size": 22,
+      "layers": 2
+    },
+    {
+      "id": 8,
+      "name": "Gardenia Lunar",
+      "number": "09",
+      "category": "love",
+      "message": "Como la luna, iluminas todo sin proponértelo y sin pedir nada a cambio.",
+      "modalTitle": "Mensaje de amor",
+      "modalSubtitle": "Una gardenia para iluminar",
+      "colors": {
+        "petal": "#FFF8F0",
+        "petalDark": "#E0D0C0",
+        "center": "#F8E880"
+      },
+      "orbit": {
+        "radius": 320,
+        "speed": 0.00015,
+        "phaseOffset": 6.0,
+        "tilt": -0.5
+      },
+      "selfRotSpeed": 0.001,
+      "size": 36,
+      "layers": 3
+    },
+    {
+      "id": 9,
+      "name": "Rosa Coral",
+      "number": "10",
+      "category": "love",
+      "message": "Tibia como un atardecer que no quisieras que terminara nunca.",
+      "modalTitle": "Mensaje de amor",
+      "modalSubtitle": "Una rosa para abrazar",
+      "colors": {
+        "petal": "#F08060",
+        "petalDark": "#C05030",
+        "center": "#FFF080"
+      },
+      "orbit": {
+        "radius": 250,
+        "speed": 0.00027,
+        "phaseOffset": 1.6,
+        "tilt": 0.3
+      },
+      "selfRotSpeed": 0.0022,
+      "size": 28,
+      "layers": 3
+    },
+    {
+      "id": 10,
+      "name": "Cerezo Celeste",
+      "number": "11",
+      "category": "friendship",
+      "message": "Como el sakura que cae, lo efímero también puede ser eterno en la memoria.",
+      "modalTitle": "Mensaje de amistad",
+      "modalSubtitle": "Un cerezo para soñar",
+      "colors": {
+        "petal": "#FFB8C8",
+        "petalDark": "#D080A0",
+        "center": "#FFF0A0"
+      },
+      "orbit": {
+        "radius": 210,
+        "speed": 0.00033,
+        "phaseOffset": 3.2,
+        "tilt": -0.25
+      },
+      "selfRotSpeed": 0.0028,
+      "size": 20,
+      "layers": 2
+    },
+    {
+      "id": 11,
+      "name": "Iris Índigo",
+      "number": "12",
+      "category": "love",
+      "message": "De todas las flores de este universo, siempre elegiría encontrarte a ti.",
+      "modalTitle": "Mensaje de amor",
+      "modalSubtitle": "Un iris para elegir",
+      "colors": {
+        "petal": "#6070D8",
+        "petalDark": "#303088",
+        "center": "#F0E080"
+      },
+      "orbit": {
+        "radius": 280,
+        "speed": 0.00023,
+        "phaseOffset": 4.8,
+        "tilt": 0.5
+      },
+      "selfRotSpeed": 0.0014,
+      "size": 32,
+      "layers": 2
+    }
+  ]
+}

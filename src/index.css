@@ -289,6 +289,26 @@ html, body, #root {
 }
 .final-btn:hover { color: rgba(255,255,255,0.55); }
 
+.mute-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 50;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+  touch-action: manipulation;
+}
+.mute-btn:hover { background: rgba(255,255,255,0.12); }
+
 /* Final */
 .final-overlay {
   position: absolute;

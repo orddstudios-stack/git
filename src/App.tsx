@@ -186,6 +186,8 @@ export default function App() {
   const starsRef = useRef<Star[]>(initStars(260))
   const dragRef = useRef({ active: false, x: 0, y: 0, moved: false })
   const cardTimerRef = useRef<ReturnType<typeof setTimeout>>()
+  const audioRef = useRef<HTMLAudioElement>(null)
+  const [muted, setMuted] = useState(false)
 
   useEffect(() => { phaseRef.current = phase }, [phase])
 
@@ -223,6 +225,9 @@ export default function App() {
   }, [focusFlower])
 
   const enterUniverse = useCallback(() => {
+    if (audioRef.current) {
+      audioRef.current.play().catch(() => {})
+    }
     setSplashFade(true)
     setTimeout(() => {
       setPhase('universe')
@@ -246,6 +251,13 @@ export default function App() {
 
   const openModal = useCallback(() => { setModalVisible(true) }, [])
   const closeModal = useCallback(() => { setModalVisible(false) }, [])
+
+  const toggleMute = useCallback(() => {
+    if (audioRef.current) {
+      audioRef.current.muted = !audioRef.current.muted
+      setMuted(audioRef.current.muted)
+    }
+  }, [])
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -551,6 +563,13 @@ export default function App() {
             <button className="modal-close-btn" onClick={closeModal} style={{ borderColor: selectedFlower.petalColor, color: selectedFlower.petalColor }}>Cerrar</button>
           </div>
         </div>
+      )}
+      <audio ref={audioRef} src="/rosas.mp3" loop></audio>
+
+      {phase !== 'splash' && (
+        <button className="mute-btn" onClick={toggleMute}>
+          {muted ? '🔇' : '🔊'}
+        </button>
       )}
     </div>
   )
